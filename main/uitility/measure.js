@@ -14,11 +14,11 @@ module.exports = {
                 "TONNE": 1000.0,
                 "GALLON": 3.78,
             },
-            "VOLUM": {
+            "VOLUME": {
                 "LITRE": 1.0,
                 "ML": 0.001,
             },
-            "Temp": {
+            "TEMPERATURE": {
                 "FAHRENHEIT": 2.12,
                 "CELSIUS": 1,
             }

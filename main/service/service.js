@@ -2,9 +2,11 @@ const quantityJSON = require('../uitility/measure');
 module.exports = {
     compares(obj, callback) {
         var Fr = "FAHRENHEIT"
-        var temp = "Temp"
+        var temp = "TEMPERATURE"
         var c = "CELSIUS"
+
         var keys = Object.keys(quantityJSON.getUnitValues());
+
         for (var i = 0; i < keys.length; i++) {
             if (keys[i] == obj.type) {
                 if (obj.type == temp) {
