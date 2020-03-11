@@ -1,0 +1,40 @@
+{
+    "input" :{
+        "type":"LENGTH",
+        "unit1":"FEET",
+        "input":"1",
+        "unit2":"INCH"
+    },
+    "nullInput":{
+        "type":null,
+        "unit1":null,
+        "input":null,
+        "unit2":null
+    },
+    "emptyInput":{
+        "type":"",
+        "unit1":"",
+        "input":"",
+        "unit2":""
+    },
+    "stringInput": {
+        "type":"LENGTH",
+        "unit1":"FEET",
+        "input":"aaa",
+        "unit2":"INCH"
+    },
+    "wroungUnit": {
+        "type":"LENGTH",
+        "unit1":"FEET",
+        "input":"aaa",
+        "unit2":"ML"
+    },
+    "correctType":{
+        "type":"LENGTH"
+    },
+    "inCorrectType":{
+        "type":"leng"
+    }
+    
+    
+}

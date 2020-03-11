@@ -22,6 +22,8 @@ app.get('/', (req, res) => {
 
 require('./main/routes/routes')(app);
 
-app.listen(3001, () => {
+var server=app.listen(3001, () => {
     console.log("server is listenling on port 3001");
 });
+
+module.exports=server

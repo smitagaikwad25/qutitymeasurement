@@ -16,7 +16,7 @@ module.exports = {
                             console.log(unitKeys[j], Fr)
                             var finalResult = (((obj.input) - (32)) * (5 / 9))
                         }
-                        if (unitKeys[j == c]) {
+                        if (unitKeys[j] == c) {
                             var finalResult = (((obj.input) * (9 / 5)) + (32))
                         }
                     }

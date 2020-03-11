@@ -5,10 +5,10 @@ module.exports = {
     convert(req, res) {
         try {
 
-            req.checkBody('type').isUppercase().isAlpha().exists();
-            req.checkBody('unit1').isAlpha().exists();
+            req.checkBody('type').isUppercase().isAlpha();
+            req.checkBody('unit1').isAlpha();
             req.checkBody('input').isNumeric();
-            req.checkBody('unit2').isAlpha().exists();
+            req.checkBody('unit2').isAlpha();
 
 
             const error = req.validationErrors();
